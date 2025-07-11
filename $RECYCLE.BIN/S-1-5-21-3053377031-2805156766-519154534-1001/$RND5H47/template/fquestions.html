@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Questionnaire</title>
+</head>
+<body>
+    <h1>Faculty Questionnaire</h1>
+    <form action="/faculty_questionnaire" method="POST">
+        <label for="performance">Performance (out of 5):</label>
+        <input type="number" id="performance" name="performance" min="1" max="5" required><br><br>
+
+        <label for="teaching">Teaching Effectiveness (out of 5):</label>
+        <input type="number" id="teaching" name="teaching" min="1" max="5" required><br><br>
+
+        <label for="research">Research Contribution (out of 5):</label>
+        <input type="number" id="research" name="research" min="1" max="5" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
